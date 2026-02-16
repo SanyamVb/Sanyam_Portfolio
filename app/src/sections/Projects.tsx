@@ -70,6 +70,14 @@ const Projects = () => {
       featured: true,
     },
     {
+      title: 'Multi-Modal RAG System',
+      description: 'Advanced Retrieval-Augmented Generation system with multi-modal PDF parsing. Extracts text, images, and tables from documents, processes them through separate pipelines, and enables cross-modal semantic search using vector embeddings.',
+      image: '/image.png',
+      tags: ['Python', 'RAG', 'LangChain', 'PDF Parsing', 'Vector DB'],
+      githubUrl: 'https://github.com/SanyamVb/Multi_modal_RAG',
+      featured: true,
+    },
+    {
       title: 'Token Optimizer',
       description: 'LLM Token Efficiency Tool that optimizes token usage for large language models, reducing costs while maintaining output quality. Features intelligent prompt compression.',
       image: '/project-token.jpg',
